@@ -73,7 +73,7 @@ if (isset($_POST['submit']) and !empty($_POST['submit']) and ($_POST['submit'] =
 <?php
 checkUser();
 loginStatus();
-?>	
+?>
 <h1>Add a new room</h1>
 <h2><a href='listrooms.php'>[Return to the room listing]</a><a href='index.php'>[Return to the main page]</a></h2>
 
