@@ -53,7 +53,7 @@ mysqli_close($DBC);
 
 ?>
 
-  
+
 </body>
 </html>
 
@@ -62,9 +62,3 @@ mysqli_close($DBC);
 
 
 
-
-	
-
- 
-  
-  
