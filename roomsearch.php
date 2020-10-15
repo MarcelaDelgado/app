@@ -2,7 +2,7 @@
 <html><head><title>Room search</title> </head>
  <body>
  
-  
+
  <?php
 
 include "config.php"; //load in any variables
@@ -19,7 +19,7 @@ if ($DBC -> connect_errno) {
         	/* retrieve a row from the results
 	   one at a time until no rows left in the result */
 
-	 	 
+
   $query ="SELECT * FROM `room` WHERE roomname NOT IN(SELECT roomname FROM `booking` WHERE checkin >=checkin AND checkout <=checkout )"; 
 	   
    $result = mysqli_query($DBC,$query);
